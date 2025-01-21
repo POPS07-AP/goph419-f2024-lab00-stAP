@@ -1,5 +1,5 @@
 import numpy as np
-from my_python_package.operators import (add,multiply,)
+from my_python_package.operators import (add,multiply,subtraction, divide)
 
 
 def main():
@@ -13,6 +13,8 @@ def main():
     print(f'B:\n{B}')
     print(f'add(A, B):\n{add(A, B)}')
     print(f'multiply(A, B):\n{multiply(A, B)}')
+    print(f'subtraction(A, B):\n{subtraction(A, B)}')
+    print(f'divide(A, B):\n{divide(A, B)}')
 
 
 if __name__ == '__main__':

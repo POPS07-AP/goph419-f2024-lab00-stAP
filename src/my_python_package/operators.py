@@ -51,3 +51,20 @@ def divide(x,y):
             The (element-wise) division of x and y.
             """
     return x / y
+
+def subtraction(x,y):
+    """Subtract two numbers or arrays.
+
+    Parameters
+    ----------
+    x : int or float or array_like
+            The first number to subtraction.
+    y : int or float or array_like
+            The second number to subtraction.
+
+    Returns
+    -------
+            int or float or array_like
+            The (element-wise) subtraction of x and y.
+            """
+    return x - y
