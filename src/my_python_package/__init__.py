@@ -1,6 +1,6 @@
 from .operators import ( 
 add, 
 multiply,
-subtraction,
+subtract,
 divide, 
 )
